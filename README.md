@@ -1,3 +1,3 @@
-# blog
+# yigexiaobing BLOG
 
-工作学习总结博客哈
+[https://yigexiaobing.github.io/blog/](https://yigexiaobing.github.io/blog/)
