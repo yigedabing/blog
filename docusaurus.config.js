@@ -60,7 +60,7 @@ const config = {
           label: "博客",
         },
         {
-          to: "/blog/readings",
+          to: "/blog/blog",
           label: "阅读",
           position: "left",
         },
