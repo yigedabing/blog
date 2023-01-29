@@ -24,13 +24,12 @@ jobs:
     steps:
       - name: 迁移代码
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
 
       # Runs a single command using the runners shell
       - name: install  🙌
         run: install
 
-      # Runs a set of commands using the runners shell
       - name: start build ...
         run: npm run build
 
