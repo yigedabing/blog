@@ -33,9 +33,3 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: start build ...
         run: npm run build
-
-      - name: Deploy 🚀
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: build
