@@ -1,3 +1,3 @@
-# yigexiaobing BLOG
+# yigedabing BLOG
 
-[https://yigexiaobing.github.io/blog/](https://yigexiaobing.github.io/blog/)
+[https://yigedabing.github.io/blog/](https://yigedabing.github.io/blog/)
