@@ -64,7 +64,11 @@ const config = {
           label: "阅读",
           position: "left",
         },
-
+        {
+          to: "/blog/thinking-life",
+          label: "生活感悟",
+          position: "left",
+        },
         {
           href: "https://github.com/yigedabing/blog",
           label: "GitHub",
