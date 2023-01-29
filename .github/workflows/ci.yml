@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install  🙌
-        run: pnpm install
+        run: npm install
 
       - name: start build ...
         run: npm run build
