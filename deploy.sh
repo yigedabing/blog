@@ -18,9 +18,9 @@ git init
 git add -A
 git commit -m 'deploy'
 
-echo '上传服务器 git@github.com:yigedabing/blog.git master:blog'
+echo '上传服务器 git@github.com:yigedabing/blog.git main:blog'
 
-git push -f git@github.com:yigedabing/blog.git master:blog
+git push -f git@github.com:yigedabing/blog.git main:gh-pages
 
 echo '服务器部署成功~'
 
