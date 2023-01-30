@@ -3,7 +3,7 @@
 重写 setItem 方法进行监听操作
 
 ```javaScript
-var orignalSetItem = localStorage.setItem;
+var originSetItem = localStorage.setItem;
 
    localStorage.setItem = function(key,newValue){
 
@@ -11,7 +11,7 @@ var orignalSetItem = localStorage.setItem;
        setItemEvent.key=key;
        setItemEvent.newValue = newValue;
        window.dispatchEvent(setItemEvent);
-       orignalSetItem.apply(this,arguments);
+       originSetItem.apply(this,arguments);
    }
 ```
 
