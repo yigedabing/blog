@@ -62,3 +62,5 @@ chrome.runtime.sendMessage({
   host: location.origin,
 });
 ```
+
+> 由于插件版本 manifest_version 为 3 Service workers replace background pages.无法访问 window，而在 2 版本中是可以访问 window，因此在版本 2 中，可以通过 postMessage 发送信息的
