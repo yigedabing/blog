@@ -54,3 +54,10 @@ package.json 文件
 <img src={require('@site/static/img/google/429777c006410de5b42bd6320e12bf4.png').default} />
 
 ts 类型检测可以正常使用~
+
+## 调试工具
+
+> 谷歌插件安装在紫鸟浏览器里面时，由于紫鸟浏览器无输出控制台，解决方案
+
+1. 代码执行关键时刻上传日志至服务器
+2. 安装调试工具[eruda 埃鲁达](https://eruda.liriliri.io/)
