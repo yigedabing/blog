@@ -1,4 +1,9 @@
-export function writeOneByOne(text, dom, container, opt) {
+export function writeOneByOne(
+  text: string,
+  dom: string,
+  container: HTMLDivElement,
+  opt: Record<string, any>
+) {
   const el = document.createElement(dom);
   const bar = document.createElement("span");
   bar.className = "write-vertical-bar";
